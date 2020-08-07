@@ -1,0 +1,7 @@
+import pandas as pd
+
+data = pd.read_excel("C:\\Users\\raulm\\OneDrive\\Desktop\\pokemon.xlsx")
+datos_nuevos=pd.DataFrame(data)
+df=datos_nuevos[["Name","Type 1","Especie"]]
+print(df)
+     
